@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+             version="1.0">
+    <persistence-unit name="toDo">
+        <description>My Persistence Unit</description>
+    </persistence-unit>
+</persistence>
+
+        <!--
+            Is important to know that JPA requires a persistence unit where you can configure
+        things, such as which managed classes are part of the persistence unit, how classes are
+        mapped to database tables, datasource connections, and so forth. So, it is necessary
+        create one. You can create the persistence.xml file in the resources/META-INF/ folder
+        -->
